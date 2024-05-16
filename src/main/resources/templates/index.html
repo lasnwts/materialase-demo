@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Materialise</title>
+
+    <!--Import Google Icon Font-->
+    <!--Import materialize.css-->
+    <link th:href="@{/css/materialize.min.css}" rel="stylesheet" type="text/css">
+    <link th:href="@{/css/style.css}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
-$END$
+<h4>Learn how to easily start using Materialize in your website.</h4>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" th:src="@{/js/materialize.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/init.js}"></script>
 </body>
 </html>
