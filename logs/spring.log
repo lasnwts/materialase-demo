@@ -1117,3 +1117,126 @@ org.attoparser.ParseException: (Line = 10, Column = 28) Malformed markup: Attrib
 2024-05-16T14:07:01.829+03:00 DEBUG 14244 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
 2024-05-16T14:07:01.831+03:00 DEBUG 14244 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
 2024-05-16T14:07:01.832+03:00 DEBUG 14244 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:09:50.973+03:00  INFO 8508 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Starting MaterialaseDemoApplication using Java 17.0.2 with PID 8508 (C:\AppServer\Project\Study\materialase-demo\target\classes started by Alex in C:\AppServer\Project\Study\materialase-demo)
+2024-05-16T14:09:50.976+03:00  INFO 8508 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T14:09:51.037+03:00  INFO 8508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16T14:09:51.038+03:00  INFO 8508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16T14:09:52.061+03:00  INFO 8508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2024-05-16T14:09:52.071+03:00  INFO 8508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T14:09:52.072+03:00  INFO 8508 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T14:09:52.136+03:00  INFO 8508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T14:09:52.136+03:00  INFO 8508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2024-05-16T14:09:52.311+03:00 DEBUG 8508 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-16T14:09:52.339+03:00  INFO 8508 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-16T14:09:52.392+03:00 DEBUG 8508 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-16T14:09:52.403+03:00 DEBUG 8508 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-16T14:09:52.410+03:00 DEBUG 8508 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-16T14:09:52.479+03:00  INFO 8508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T14:09:52.508+03:00  INFO 8508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2024-05-16T14:09:52.517+03:00  INFO 8508 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Started MaterialaseDemoApplication in 2.098 seconds (process running for 2.911)
+2024-05-16T14:09:55.525+03:00  INFO 8508 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T14:09:55.526+03:00  INFO 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T14:09:55.526+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-16T14:09:55.526+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-16T14:09:55.526+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-16T14:09:55.527+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@dc0bea1
+2024-05-16T14:09:55.528+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1fa94428
+2024-05-16T14:09:55.528+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-16T14:09:55.528+03:00  INFO 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-16T14:09:55.536+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-05-16T14:09:55.556+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-05-16T14:09:55.803+03:00 DEBUG 8508 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:09:55.835+03:00 DEBUG 8508 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/materialize.min.css", parameters={}
+2024-05-16T14:09:55.838+03:00 DEBUG 8508 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/init.js", parameters={}
+2024-05-16T14:09:55.838+03:00 DEBUG 8508 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/materialize.min.js", parameters={}
+2024-05-16T14:09:55.838+03:00 DEBUG 8508 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-05-16T14:09:55.842+03:00 DEBUG 8508 --- [http-nio-8086-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:09:55.843+03:00 DEBUG 8508 --- [http-nio-8086-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:09:55.843+03:00 DEBUG 8508 --- [http-nio-8086-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:09:55.842+03:00 DEBUG 8508 --- [http-nio-8086-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:09:55.854+03:00 DEBUG 8508 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:09:55.854+03:00 DEBUG 8508 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:09:55.857+03:00 DEBUG 8508 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:09:55.858+03:00 DEBUG 8508 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:11:48.659+03:00  INFO 11828 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Starting MaterialaseDemoApplication using Java 17.0.2 with PID 11828 (C:\AppServer\Project\Study\materialase-demo\target\classes started by Alex in C:\AppServer\Project\Study\materialase-demo)
+2024-05-16T14:11:48.662+03:00  INFO 11828 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T14:11:48.722+03:00  INFO 11828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16T14:11:48.723+03:00  INFO 11828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16T14:11:49.754+03:00  INFO 11828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2024-05-16T14:11:49.765+03:00  INFO 11828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T14:11:49.765+03:00  INFO 11828 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T14:11:49.827+03:00  INFO 11828 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T14:11:49.828+03:00  INFO 11828 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1104 ms
+2024-05-16T14:11:50.028+03:00 DEBUG 11828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-16T14:11:50.072+03:00  INFO 11828 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-16T14:11:50.131+03:00 DEBUG 11828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-16T14:11:50.146+03:00 DEBUG 11828 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-16T14:11:50.154+03:00 DEBUG 11828 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-16T14:11:50.237+03:00  INFO 11828 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T14:11:50.278+03:00  INFO 11828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2024-05-16T14:11:50.288+03:00  INFO 11828 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Started MaterialaseDemoApplication in 2.157 seconds (process running for 3.036)
+2024-05-16T14:11:52.966+03:00  INFO 11828 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T14:11:52.966+03:00  INFO 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T14:11:52.966+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-16T14:11:52.966+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-16T14:11:52.966+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-16T14:11:52.967+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@586b6728
+2024-05-16T14:11:52.967+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@62272716
+2024-05-16T14:11:52.968+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-16T14:11:52.968+03:00  INFO 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-16T14:11:52.978+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-05-16T14:11:52.998+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-05-16T14:11:53.264+03:00 DEBUG 11828 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:11:53.296+03:00 DEBUG 11828 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/materialize.min.css", parameters={}
+2024-05-16T14:11:53.302+03:00 DEBUG 11828 --- [http-nio-8086-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:11:53.306+03:00 DEBUG 11828 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-05-16T14:11:53.306+03:00 DEBUG 11828 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/init.js", parameters={}
+2024-05-16T14:11:53.306+03:00 DEBUG 11828 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/materialize.min.js", parameters={}
+2024-05-16T14:11:53.307+03:00 DEBUG 11828 --- [http-nio-8086-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:11:53.307+03:00 DEBUG 11828 --- [http-nio-8086-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:11:53.307+03:00 DEBUG 11828 --- [http-nio-8086-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:11:53.314+03:00 DEBUG 11828 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:11:53.314+03:00 DEBUG 11828 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:11:53.317+03:00 DEBUG 11828 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:11:53.318+03:00 DEBUG 11828 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:13:34.146+03:00  INFO 4772 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Starting MaterialaseDemoApplication using Java 17.0.2 with PID 4772 (C:\AppServer\Project\Study\materialase-demo\target\classes started by Alex in C:\AppServer\Project\Study\materialase-demo)
+2024-05-16T14:13:34.149+03:00  INFO 4772 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T14:13:34.208+03:00  INFO 4772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16T14:13:34.208+03:00  INFO 4772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16T14:13:35.225+03:00  INFO 4772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2024-05-16T14:13:35.235+03:00  INFO 4772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T14:13:35.236+03:00  INFO 4772 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T14:13:35.298+03:00  INFO 4772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T14:13:35.298+03:00  INFO 4772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
+2024-05-16T14:13:35.481+03:00 DEBUG 4772 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-16T14:13:35.523+03:00  INFO 4772 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-16T14:13:35.577+03:00 DEBUG 4772 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-16T14:13:35.598+03:00 DEBUG 4772 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-16T14:13:35.604+03:00 DEBUG 4772 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-16T14:13:35.684+03:00  INFO 4772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T14:13:35.719+03:00  INFO 4772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2024-05-16T14:13:35.730+03:00  INFO 4772 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Started MaterialaseDemoApplication in 2.094 seconds (process running for 2.87)
+2024-05-16T14:13:43.667+03:00  INFO 4772 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T14:13:43.668+03:00  INFO 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T14:13:43.670+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-16T14:13:43.671+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-16T14:13:43.672+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-16T14:13:43.675+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@dc0bea1
+2024-05-16T14:13:43.677+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1fa94428
+2024-05-16T14:13:43.679+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-16T14:13:43.680+03:00  INFO 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2024-05-16T14:13:43.726+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-05-16T14:13:43.816+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-05-16T14:13:44.880+03:00 DEBUG 4772 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:13:45.000+03:00 DEBUG 4772 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/materialize.min.css", parameters={}
+2024-05-16T14:13:45.015+03:00 DEBUG 4772 --- [http-nio-8086-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:13:45.035+03:00 DEBUG 4772 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-05-16T14:13:45.035+03:00 DEBUG 4772 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/init.js", parameters={}
+2024-05-16T14:13:45.036+03:00 DEBUG 4772 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/materialize.min.js", parameters={}
+2024-05-16T14:13:45.037+03:00 DEBUG 4772 --- [http-nio-8086-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:13:45.038+03:00 DEBUG 4772 --- [http-nio-8086-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:13:45.041+03:00 DEBUG 4772 --- [http-nio-8086-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T14:13:45.069+03:00 DEBUG 4772 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:13:45.070+03:00 DEBUG 4772 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:13:45.078+03:00 DEBUG 4772 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T14:13:45.077+03:00 DEBUG 4772 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
