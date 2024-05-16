@@ -1,0 +1,38 @@
+2024-05-16T13:35:28.165+03:00  INFO 11472 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Starting MaterialaseDemoApplication using Java 17.0.2 with PID 11472 (C:\AppServer\Project\Study\materialase-demo\target\classes started by Alex in C:\AppServer\Project\Study\materialase-demo)
+2024-05-16T13:35:28.170+03:00  INFO 11472 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T13:35:28.290+03:00  INFO 11472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16T13:35:28.290+03:00  INFO 11472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16T13:35:29.502+03:00  INFO 11472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2024-05-16T13:35:29.512+03:00  INFO 11472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T13:35:29.513+03:00  INFO 11472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T13:35:29.578+03:00  INFO 11472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T13:35:29.579+03:00  INFO 11472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1287 ms
+2024-05-16T13:35:29.775+03:00 DEBUG 11472 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-16T13:35:29.820+03:00  INFO 11472 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-16T13:35:29.876+03:00 DEBUG 11472 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-16T13:35:29.896+03:00 DEBUG 11472 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-16T13:35:29.903+03:00 DEBUG 11472 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-16T13:35:29.983+03:00  INFO 11472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T13:35:30.022+03:00  INFO 11472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2024-05-16T13:35:30.033+03:00  INFO 11472 --- [restartedMain] c.e.m.MaterialaseDemoApplication         : Started MaterialaseDemoApplication in 2.672 seconds (process running for 3.938)
+2024-05-16T13:35:36.241+03:00  INFO 11472 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T13:35:36.241+03:00  INFO 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T13:35:36.241+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-16T13:35:36.241+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-16T13:35:36.241+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-16T13:35:36.242+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@574a1f2e
+2024-05-16T13:35:36.242+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@165495ae
+2024-05-16T13:35:36.243+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-16T13:35:36.243+03:00  INFO 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-16T13:35:36.250+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-05-16T13:35:36.269+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-05-16T13:35:36.412+03:00 DEBUG 11472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-16T13:35:36.539+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-05-16T13:35:36.544+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-16T13:35:36.548+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-05-16T13:35:36.548+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-05-16T13:35:36.557+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-05-16T13:35:36.560+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-05-16T13:35:36.590+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-05-16T13:35:36.593+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu May 16 13:35:36 MSK 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+2024-05-16T13:35:36.628+03:00 DEBUG 11472 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
